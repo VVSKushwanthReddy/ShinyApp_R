@@ -65,7 +65,7 @@ shinyUI(
                     
                 
                     sliderInput("min_freq", "Minimum frequency of words in wordcloud:", min = 0,  max = 30, value = 1),
-                    sliderInput("max1", "Maximum frequency of words in wordcloud:", min = 1,  max = 200, value = 100),
+                    sliderInput("max_freq", "Maximum frequency of words in wordcloud:", min = 1,  max = 200, value = 100),
                     
                     submitButton(text = "Apply Changes", icon("refresh"))
                    
