@@ -7,8 +7,9 @@ if (!require(igraph)){install.packages("igraph")}
 if (!require(ggraph)){install.packages("ggraph")}
 if (!require(wordcloud)){install.packages("wordcloud")}
 if (!require(readtext)){install.packages("readtext")}
+if (!require(shinythemes)){install.packages("shinythemes")}
 
-
+library(shinythemes)
 library(shiny)
 library(udpipe)
 library(textrank)
