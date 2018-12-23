@@ -12,8 +12,9 @@ if (!require(igraph)){install.packages("igraph")}
 if (!require(ggraph)){install.packages("ggraph")}
 if (!require(wordcloud)){install.packages("wordcloud")}
 if (!require(readtext)){install.packages("readtext")}
+if (!require(shinythemes)){install.packages("shinythemes")}
 
-
+library(shinythemes)
 library(shiny)
 library(udpipe)
 library(textrank)
@@ -28,7 +29,9 @@ library(stringr)
 
 shinyUI(
   
-      fluidPage(h4(textOutput("currentTime")),#Adding Dateinput widget
+      fluidPage(   shinythemes::themeSelector(), #Adding Theme Selector
+        
+        h4(textOutput("currentTime")),#Adding Dateinput widget
          
               titlePanel("Shiny App around the UDPipe NLP workflow"),
         
