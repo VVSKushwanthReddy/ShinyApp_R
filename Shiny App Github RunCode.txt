@@ -1,0 +1,2 @@
+source("https://raw.githubusercontent.com/VVSKushwanthReddy/ShinyApp_R/master/Dependencies.R")
+runGitHub("ShinyApp_R", "VVSKushwanthReddy")
