@@ -80,7 +80,7 @@ shinyUI(
                              
                              p("This app helps to gain insights about data stored in different languages of Text files.",align="justify"),
                              p("Please refer to the link below for sample text file."),
-                             a(href="https://github.com/VVSKushwanthReddy/ShinyApp_R/LaLaLand.txt"
+                             a(href="https://github.com/VVSKushwanthReddy/ShinyApp_R/blob/master/LaLaLand.txt"
                                ,"Sample data input file"),   #change
                              br(),
                              h4('How to use this App'),
