@@ -80,7 +80,7 @@ shinyUI(
                              
                              p("This app helps to gain insights about data stored in different languages of Text files.",align="justify"),
                              p("Please refer to the link below for sample text file."),
-                             a(href="https://github.com/sudhir-voleti/sample-data-sets/blob/master/Segmentation%20Discriminant%20and%20targeting%20data/ConneCtorPDASegmentation.csv"
+                             a(href="https://github.com/VVSKushwanthReddy/ShinyApp_R/LaLaLand.txt"
                                ,"Sample data input file"),   #change
                              br(),
                              h4('How to use this App'),
